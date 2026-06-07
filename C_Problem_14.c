@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int n, first, last, temp, divisor = 1, middle, result;
+    int n, first, last, temp, divisor, middle, result;
     printf("Enter a number: ");
     scanf("%d", &n);
+    divisor = 1; 
     last = n % 10;
     temp = n;
     loop:if(temp >= 10)
